@@ -1,0 +1,7 @@
+dotnet --version
+dotnet new mvc --name firstcoreapp
+dotnet build
+dotnet test
+dotnet run 
+
+https://learn.microsoft.com/en-us/dotnet/core/tools/

@@ -1,0 +1,52 @@
+						Web Revolution
+
+1. Which year did you first used internet - 2007
+2. What did you use internet for in those days - Emails, Chatting, Check Results, Games (small world)
+3. Where did you use internet - CyberCafe/Home/Friends Home
+4. Device for internet - Desktop - (Laptop)
+5. Habbits of end user has changed
+6. Source of internet - Lan/Broadband (Wifi) - Fast and Stable
+	====================================
+		Thus developer used to create contents accordingly
+
+--------------------------------------------------------------------------------------
+1. What did you use internet for in those days - Everything
+2.  Where did you use internet - Everywhere
+3. Device for internet - Mobiles, Tablets, watches etc...
+	a. size (Mobile phones are different in size) 
+	b. Hardware 
+		Desktop Browser - Cache lot of contents
+4. Habbits 
+5. Source of internet  - MobileData
+---------------------		
+
+		We had ASP.Net Framework for the same - around 2000
+			Works only on Windows (Develop and deploy on windows ) - Costly, lack features for modern web
+
+		Angular, Node, Java, React etc.... all based on new web requiremens, free, open source, cross-platform
+
+		---Thus MS wrote it for Cross-Platform
+		---This is used on every platform 
+
+		We get to develop for free - VS Code, .Net core 
+
+		---.Net framework needed licence VS,licence windows, licenced server
+		--.Net Core CLI
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

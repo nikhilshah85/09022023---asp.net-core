@@ -1,0 +1,20 @@
+ASP.net Core (Result of Web Revolution)
+	MVC 
+	EF Core 
+	WebAPI - RESTFul Services
+---------------------------------------------------------------
+Name: 
+Experience:
+Expectations:
+---------------------------------------------------------------------
+Pre-requisites
+
+1. Good at OOPS, HTML, CSS, JS
+2. Softwares for Hands-on
+	a. VS Code
+	b. VS 2019 / 2022
+	c. SQL Server Express/2014 or above
+	d. GIT (optional)
+
+	Use your own machine / Use Cloud Lab
+-----------------------------------------------------------------
