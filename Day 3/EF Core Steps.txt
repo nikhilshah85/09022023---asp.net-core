@@ -1,0 +1,70 @@
+					EF Core
+
+Entity Framework is based on ORM - Object Relational Mapping
+
+Steps
+1. Create a database on sql server, add table and add some dummy data
+2. Create a new MVC Project, employeeManagement_EF
+3. Install Nuget Packages for EF Core
+	Right Click Solution Explorer -> Manage Nuget Packages -> Browse -> Type EnityframrworkCore
+
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer
+
+4. Create POCO classes and DBContext Classes
+	POCO - Plain C# Objects - Classes mapped to tables, haveing properties mapped to columns
+	DbContext - This knows about tables, connection strings, CRUD Operations 
+
+	Tools -> Nuget package Manager - Nuget package manager console
+
+	
+Windows Auth
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=employeeDB;integrated security=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF -Force
+
+Server Auth
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=employeeDB;userid= ; password=" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF
+
+	Check the Models -> EF Folder
+
+5. Build the appliction
+6. Right click controller, add new controller, MVC with Views and EF, choose the table name as Model and DB context which got created in the previous steps
+
+	Check the Views folder
+
+7. Open the new controller, it uses DI by default, but only half configured, we will remove that as we dont know DI,
+	thus instanstiate new object for DBContext - Line 14
+	
+	 private readonly EmployeeDbContext _context = new EmployeeDbContext();
+	
+
+	Comment constructor - line 16 to 20
+8. Update the layout page to include link for employee index page
+
+	  <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="employee" asp-action="Index">Employee</a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

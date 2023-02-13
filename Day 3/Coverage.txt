@@ -1,0 +1,4 @@
+1. ASP.Net Core
+2. MVC pattern (Collection)
+3. EF Core - MVC with Database 
+	Perform CRUD operations with sql server

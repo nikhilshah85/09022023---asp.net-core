@@ -1,0 +1,23 @@
+﻿
+
+
+<h2> Employee list </h2>
+
+<table class="table table-bordered">
+    
+    @foreach (var item in ViewBag.allEmp)
+    {
+        <tr>
+            <td> @item.eId </td>
+            <td> @item.eName </td>
+            <td> @item.eSalary </td>
+            <td> @item.eDesignation </td>
+            <td> @item.eIsPermenant </td>
+            <td> <button class="btn btn-primary"> Add </button> </td>
+            <td> <button class="btn btn-warning"> Edit </button> </td>
+            <td> <button class="btn btn-danger"> Delete </button> </td>
+
+        </tr>
+    }   
+    
+</table>

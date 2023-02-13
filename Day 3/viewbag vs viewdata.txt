@@ -1,0 +1,5 @@
+Viewbag is loosely coupled - dynamic does not need typecasting
+			fast not type safe
+			use this when you are not concerned about datatypes
+Viewdata is tightly coupled - needs typecasteing - 
+			type safe but slow

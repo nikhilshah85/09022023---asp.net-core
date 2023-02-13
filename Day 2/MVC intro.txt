@@ -1,0 +1,47 @@
+
+
+
+
+
+						MVC 
+				
+
+	Model - (.cs) - Data - CRUD operations
+			       Sorting, Filter, Calculation of data, Validation of data
+			       WebAPI calls, SP execution (HttpClient)
+			       ADO.Net Core / EF Core(POCO Classes)
+	View - (.cshtml) - UI part of application	
+				HTML, CSS, JS, Bootstrap, Angular
+				Razor Syntax - short hand (HTML + CSS + JS)
+				WebAPI calls - (fetch api, Jquery, axios etc...)
+	Controller - (.cs) - listen to request
+				Collect data from Model - Pass it to view - return view
+				Collect data from view - pass it to model - return view
+				Authentication, Authorization, encription, statemeagement etc...
+				
+			
+		-----------------------------------------------------------------------------
+			wwwroot - for static files, css, images, js etc..
+			appsettings.json - this is the config file (web.config) - (app.config)
+			program.cs - this is the main file
+				services, middleware, other config
+				it is the entry point of app 
+				(previously .net core 5.0 and below)
+				startup.cs + program.cs
+				startup.cs - services and middleware
+					startup was then references in program.cs
+
+				services and middleware - isapi filters from .net framework
+
+
+
+
+
+
+
+
+
+
+
+
+
