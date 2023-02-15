@@ -1,0 +1,30 @@
+﻿<script>
+
+    function getUsers()
+    {
+        var url = "https://jsonplaceholder.typicode.com/users";
+        fetch(url).then(usr => usr.json())
+                  .then(details => {
+                      console.log(details);
+
+                      for(var i=0;i<details.length;i++)
+                      {
+                          $("div").append("<div style='background-color:lime'>" + 
+                            "<h3>" + details[i].name + "</h3>" +
+                            "<h3>" + details[i].username + "</h3>" +
+                            "<h3>" + details[i].address.city + "</h3>" +
+                            "<h3>" + details[i].address.geo.lat + "</h3>" +
+                        "<h3>" + details[i].company.name + "</h3>" +
+                        "<h3>" + details[i].company.catchphase + "</h3>"
+
+                        + "</div>");
+                        $("</hr/>");
+                      }
+                  })
+                  .catch( err =>{
+                      console.log(err);
+                  })
+    }
+</script>
+<button class="btn btn-warning" onclick="getUsers()"> Display Users</button>
+<div></div>

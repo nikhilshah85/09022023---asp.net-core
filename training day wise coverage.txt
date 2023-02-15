@@ -1,2 +1,12 @@
 Day1 - .Net Core Inro
 Day2 - ASP.Net MVC Core 
+Day3 - EF Core
+Day4 - WebAPI Calls
+	2 Ways to make the call
+	1. Client Side - Fastest - fetch api (w3 standard - built into every browser)
+			less secured - should not be used for critical data
+			Only for web - not for desktop / hardware
+	2. Server Side - Safest - HttpClient - C#
+
+Day 5 : 1. Make API calls useing server side
+	2. Create your own API with EF Core and SQL Server

@@ -1,0 +1,14 @@
+﻿
+
+<table class="table table-stripped">
+    @foreach (var item in ViewBag.comments)
+    {
+        <tr>
+            <td> @item.id </td>
+            <td> @item.postId </td>
+            <td> @item.name </td>
+            <td> @item.email </td>
+            <td> @item.body </td>
+        </tr>
+    }
+</table>

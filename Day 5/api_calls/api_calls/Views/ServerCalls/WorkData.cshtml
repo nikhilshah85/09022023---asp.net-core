@@ -1,0 +1,30 @@
+﻿
+
+
+
+    @foreach (var item in ViewBag.work)
+    {
+        @if (item.completed)
+        {
+        <div style="background-color:green">
+            <h3> Work Id : @item.id</h3>
+            <h3> User Id : @item.userId </h3>
+            <h3> Work Title : @item.title </h3>
+            <h3> Status : Completed </h3>
+        </div>
+    }
+    else
+    {
+        <div style="background-color:red">
+            <h3> Work Id : @item.id</h3>
+            <h3> User Id : @item.userId </h3>
+            <h3> Work Title : @item.title </h3>
+            <h3> Status : Pending </h3>
+        </div>
+    }
+    <hr/>
+
+
+
+
+}
