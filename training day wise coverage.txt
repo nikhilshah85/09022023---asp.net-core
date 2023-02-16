@@ -10,3 +10,4 @@ Day4 - WebAPI Calls
 
 Day 5 : 1. Make API calls useing server side
 	2. Create your own API with EF Core and SQL Server
+Day 6 : Create a webapi for customers in ASP.net mvc
