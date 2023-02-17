@@ -1,0 +1,24 @@
+﻿
+
+
+
+<form method="post">
+    <input type="number" placeholder="Enter Employee number" class="form-control" name="empNo"/>
+    <button type="submit" class="btn btn-warning">Search</button>
+</form>
+
+
+@if (ViewBag.message != "")
+{
+    <div>
+    <h3> @ViewBag.emp.eId </h3>
+    <h3> @ViewBag.emp.eName </h3>
+    <h3> @ViewBag.emp.eDesigtnation </h3>
+    <h3> @ViewBag.emp.eSalary </h3>
+    <h3> @ViewBag.emp.eIsPermenant </h3>
+    </div>
+}
+else
+{
+    <h1 style="color:red"> @ViewBag.message </h1>
+}

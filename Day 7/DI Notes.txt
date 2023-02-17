@@ -1,0 +1,44 @@
+Have you used DI before ?in any technology ?
+
+
+
+A developer creates lots of objects in an application
+
+	But does developer writes any code to destroy the object?
+
+
+A controller is also a class
+
+	-----------------------------------------------------------
+
+	1. A developer will not create any object now on
+	2. Objects will be created and destroyed by runtime
+
+	------------------------------------
+
+	Di is applied in 2 steps
+	a. Useing a contructor in controller/(anywhere u need any object)
+	b. In program.cs - add class as a service, and tell runtime when to destroy the object
+			This is where a devlopers expertise comes in
+			as this is also concerned about shareing the object between multiple requests
+
+			There are 3 methods 
+			1. Transcient - PerCall - runtime will create and destroy object for every call
+				use this when data is much dynamic - eg. Stockmarket - currency rate - cricket score
+			2. Scoped    - PerUser - runtime will create and destroy object for every user
+				use this when data is private/personal to a user - eg. Bankaccount
+			3. Singleton  - PerApplication - runtime will create and destroy object once
+				user this when data is much static - eg. FlightSchedule - Railway schedule
+
+
+
+
+
+
+
+
+
+
+
+
+			

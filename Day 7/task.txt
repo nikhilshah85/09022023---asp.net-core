@@ -1,0 +1,15 @@
+
+
+
+
+
+
+						Try / Task
+
+
+			Add EF Core to the application, 
+			Add a database from server, create db context
+			Add Controller for everytable
+			View the data on page 
+
+			Make sure no objects of DBContext has been created
