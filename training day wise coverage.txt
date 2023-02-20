@@ -12,3 +12,48 @@ Day 5 : 1. Make API calls useing server side
 	2. Create your own API with EF Core and SQL Server
 Day 6 : Create a webapi for customers in ASP.net mvc
 Day 7: DI 
+Day 8: Security 
+	Transport layer (HTTPS)
+	Content security (Do not show pages to users who do not have access, i.e let them identity)
+	Data security - data at rest (username and password)
+
+
+		.net core - Identity Framework
+				Create pages for you (login, register, forgot password, reset password, enable 2FA...)
+				Create a database for (with tables for users, roles, sessions etc...)
+				oAuth - allow user to login with FB, GMAIl etc....
+
+
+	
+
+	1. Create new app with Authentication type - Individual
+	2. Check the project structure
+	3. Change the connection string in appsettings.json
+	4. Tools - nuget package manager - console - 
+			Add-Migration initialsetup
+			update database
+	5. check the database - tables - aspnetuser
+	6. build the app and run the app - register user, check table, and them login
+	7. Add a new Controller - Banking, add 4 action results - BankingHome, AccountTypes, FundTransfer, DownlodStatement
+				create the views for them -> update the layout pages
+	8. Run the application, user will be able to visit all the pages, even FundTransfer and DownlodStatement, even if they are not
+			logged in 
+	9. Go to controller Add - [Authorize] above the FundTransfer  and  DownlodStatement, build the app and check the functionality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
